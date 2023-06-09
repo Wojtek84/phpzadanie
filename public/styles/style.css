@@ -1,0 +1,101 @@
+.page{
+	position: relative;
+	background-color: white;
+    color: black;
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.menu{
+	position: relative; 
+	display: inline-block;
+	background-color: #C3C3C3;
+	width: 15%; 
+	height: 100%;
+	text-align: center;
+}
+
+.dashboard{
+	position: relative;
+	display: inline-block;
+	background-color: #D0FEC2;
+	width: 85%; 
+	height: 100%;
+	float: right;
+	text-align: center;
+}
+
+table, tr, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+	
+
+.rate{
+	height: 30px;
+	background-color: white;
+	color: black;
+	padding: 0px;
+}
+
+.rate-header{
+    height: 30px;
+	background-color: #afafaf;
+	color: black;
+}
+
+.rate-currency{
+	border: 1px solid black;
+	width: 300px;
+}
+
+.rate-code{
+	width: 150px;
+}
+
+.rate-value{
+	width: 200px;
+}
+
+.content{
+	position: relative;
+	display: inline-block;
+	background-color: #D0FEC2;
+}
+
+.calculator{
+	border: 1px solid black;
+	background: #afafaf;
+	padding: 5px;
+	height: 125px;
+}
+
+input, select{
+	height: 30px;
+	color: blue;
+}
+
+.result{
+	border: 1px solid black;
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	margin-top: 5px;
+	font-weight: bold;
+	color: green;
+	background: white;
+	height: 60px;
+	width: 1110px;
+}
+
+label{
+	font-weight: bold;	
+}
+
+p{
+	font-size: 0.1em;
+	margin: 0 0;
+	padding: 0;
+}
